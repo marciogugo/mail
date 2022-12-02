@@ -1,0 +1,24 @@
+textarea {
+    min-height: 400px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid lightskyblue;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr[itemProp="false"] {
+    background-color: white;
+}
+
+tr[itemProp="true"] {
+    background-color: #dddddd;
+}
+  
